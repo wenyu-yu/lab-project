@@ -21,5 +21,20 @@ export default new Router({
       name: 'Submit',
       component: () => import('../views/Submit.vue')
     },
+    {
+      path: '/problem',
+      name: 'Problem',
+      component: () => import('../views/Problem.vue')
+    },
+    {
+      path: '/manager',
+      name: 'Manager',
+      component: () => import('../views/Manager.vue')
+    },
+    {
+      path: '/addperson',
+      name: 'AddPerson',
+      component: () => import('../views/AddPerson.vue')
+    }
   ]
 })
